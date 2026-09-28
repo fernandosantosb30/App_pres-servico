@@ -1,0 +1,58 @@
+# Dependencies and generated output
+node_modules/
+.pnp.*
+.yarn/
+.next/
+.vinext/
+dist/
+out/
+coverage/
+*.tsbuildinfo
+next-env.d.ts
+
+# Environment and credentials: only the reviewed empty template is public
+.env
+.env.*
+!.env.example
+.dev.vars
+.dev.vars.*
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+service-account*.json
+
+# Account-bound hosting metadata; share only the sanitized template
+.openai/*
+!.openai/hosting.example.json
+.vercel/
+.wrangler/
+.sites-runtime/
+.agents/
+.codex/
+
+# Local databases, uploads, exports and backups
+*.db
+*.db-*
+*.sqlite
+*.sqlite-*
+*.sqlite3
+*.sqlite3-*
+uploads/
+private/
+backups/
+exports/
+outputs/
+work/
+*.dump
+*.bak
+*.tar.gz
+*.zip
+
+# Logs and editor/OS state
+*.log
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
